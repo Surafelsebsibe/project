@@ -1,0 +1,271 @@
+<doctype html>
+<html lang="en">
+   <head>
+   <style type="text/css">
+   div.timetable {
+   position: relative;
+   overflow: hidden;
+   width: 630px;
+   margin: 0 auto;
+   }
+   div.timetable table {
+   border-collapse: collapse;
+   border-spacing: 0;
+   }
+   div.timetable th, div.timetable td {
+   border-bottom-style: dotted;
+   border-color: #DDDDDD;
+   border-width: 1px;
+   padding: 0px;
+   font-size: 12px;
+   color: #444444;
+   }
+   div.timetable td.hour {
+   font-style: italic;
+   }
+   div.timetable .lesson {
+   border: 1px solid #DDDDDD;
+   position: absolute;
+   z-index: 8;
+   font-size: 11px;
+   color: #444444;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   background-color: white;
+   }
+   div.timetable .lesson.classesPresent .lesson_head {
+   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=") no-repeat scroll 95% center transparent;
+   cursor: pointer;
+   }
+   div.timetable .lesson.classesPresent input {
+   display: none;
+   }
+   div.timetable .lesson_head {
+   padding: 2px;
+   font-weight: bold;
+   text-align: center;
+   border-bottom: 1px solid #DDDDDD;
+   font-size: 11px;
+   font-family: arial,helvetica,clean,sans-serif;
+   }
+   div.timetable .lesson_body {
+   padding: 0px 3px 2px 3px;
+   vertical-align: middle;
+   font-size: 11px;
+   font-family: arial,helvetica,clean,sans-serif;
+   }
+   div.timetable .actual_day {
+   background-color: #F0F0F0;
+   border: 1px solid black;
+   }
+   div.timetable .actual_day .lesson_head{
+   border-bottom: 1px solid black;
+   }
+   </style>
+      <title>time table</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="/style.css">
+      </style>
+   </head>
+   <body style="background-color:yellow";>
+   <table>
+   <tr>
+   <td>&nbsp;</td>
+   <th>Mon</th>
+   <th>Tues</th>
+   <th>Wed</th>
+   <th>Thurs</th>
+   <th>Fri</th>
+   <th>Sat</th>
+   <th>Sun</th>
+   </tr>
+   <tr>
+   <th>1st period</th>
+   <td>English</td>
+   <td>&nbsp;</td>
+   <td>&nbsp;</td>
+   <td>German</td>
+   <td>Dutch</td>
+   <td>&nbsp;</td>
+   <td>&nbsp;</td>
+   </tr>
+   <tr>
+   <th>2nd period</th>
+   <td>English</td>
+   <td>English</td>
+   <td>&nbsp;</td>
+   <td>German</td>
+   <td>Dutch</td>
+   <td>&nbsp;</td>
+   <td>&nbsp;</td>
+   </tr>
+   <tr>
+   <th>3rd period</th>
+   <td>&nbsp;</td>
+   <td>German</td>
+   <td>&nbsp;</td>
+   <td>German</td>
+   <td>Dutch</td>
+   <td>&nbsp;</td>
+   <td>&nbsp;</td>
+   </tr>
+   <tr>
+   <th>4th period</th>
+   <td>&nbsp;</td>
+   <td>English</td>
+   <td>&nbsp;</td>
+   <td>English</td>
+   <td>Dutch</td>
+   <td>&nbsp;</td>
+   <td>&nbsp;</td>
+   </tr>
+   </table>
+      <header><hr>
+         <h1>this is heading 1</h1>
+         <h2>this is heading 2</h2
+         <h3>this is heading 3</h3>
+         <h4>this is heading 4</h4>
+         <h5>this is heading 5</h5>
+         <h6>this is heading 6</h6><hr>
+        <p>school makes people smart</p>
+         <p>education is world changer</p>
+         <p>learning is changing</p>
+          <p>education create a modern world</p>
+          <p>learning makes people smart</p><hr>
+          <address>school phone number:2519009834</address>
+          <address>school code:005</address>
+          <address>school pox:009</address>
+   </header>
+   </body>
+</html>
+<!--<!doctype>	Defines a document type.
+    <title>	Represents title to an HTML document.
+      <a>	Specific a anchor (Hyperlink)
+      Use for link in internal/external web documents.
+      <abbr>	Describes an abbreviation (acronyms).
+      <acronym>	Describes an acronyms.
+      <address>	Describes an address information.
+      <area>	Defines an area in an image map.
+      <article>	Defines an article.
+      <b>	Specific text weight bold.
+      <var>	Represents a variable in a computer program or mathematical equation.
+      <u>	Represents underlined text.
+      <tt>	Represents teletype text.
+      <tr>	Defines a row of cells in a table.   
+      <time>	Represents the date and/or time in an HTML document.
+      <thead>	Used to adding a header to a table that containing header information of the table.
+      <th>	Used for creates header of a group of cell in HTML table.
+      <tfoot>	Used to adding a footer to a table that containing summary of the table data.       
+      <td>	Used for creates standard data cell in HTML table.
+      <table>	Used to defines a table in an HTML document.
+      <sup>	Represents inline superscript text.
+      <sub>	Represents inline subscript text.
+      <style>	Used to add CSS style to an HTML document.
+      <strong>	Represents strong emphasis greater important text.
+      <span>	Used to grouping and applying styles to inline elements.
+      <source>	Used to specifies multiple media resources.
+      <small>	Used to makes the text one size smaller.
+      <select>	Used to create a drop-down list.
+      <section>	Used to divide a document into number of different generic section.
+      <s>	Text display in strikethrough style.
+      <q>	Represents the short quotation.
+      <progress>	Represents the progress of a task.
+      <pre>	Used to represents preformatted text.
+      <p>	Used to represents a paragraph 
+      <output>	Used for representing the result of a calculation.
+      <param>	Provides parameters for embedded object element.
+      <p>	Used to represents a paragraph text.
+      <output>	Used for representing the result of a calculation.
+      <option>	Represents option items within a <select>, <optgroup> or <datalist> element..
+      <optgroup>	Used to create a grouping of options, the related options are grouped under specific headings.
+      <ol>	Defines an ordered list of items..
+      <object>	Used to embedded objects such as images, audio, videos, Java applets, and Flash animations.
+      <noscript>	Used to provide an fall-back content to the browser that does not support the JavaScript.
+      <noframes>	Used to provide a fallback content to the browser that does not support the <frame> element.
+      <nav>	Used to defines group of navigation links
+      <meter>	Used to measure data within a given range.
+      <meta>	Used to provide structured metadata about a web page.
+      <menu>	Used to display a unordered list of items/menu of commands.
+      <mark>	Used to highlighted (marked) specific 
+      <link>	Used to load an external stylesheets into HTML document.
+      <li>	Define a list item either ordered list or unordered list
+      <legend>	Used to add a caption (title) to a group of related form elements that are grouped together into the <fieldset> tag.
+      <label>	Used to caption a text label with a form <input> element.
+      <keygen>	Used to generate signed certificate, which is used to authent
+      <kbd>	Used to identify text that are represents keyboard input.
+      <isindex>	Used to create a single line search prompt for querying the contents of the document.
+      <ins>	Used to indicate text that is inserted into a page and indicates changes to a document.
+      <input>	Define a get information in selected input
+      <iframe>	Defines a inline frame that embedded external content into current web document.
+      <i>	Defines a italic format text
+      <html>	Define a document is a HTML markup language
+      <hr />	Represent a thematic break between paragraph-level tags. It is typically draw horizontal line
+      <hgroup>	Defines the heading of a section that hold the h1 to h6 tags.
+      <header>	Defines as a container that hold introductory content or navigation links
+      <head>	Defines header section of HTML document.
+      <h1> to <h6>	Defines a Headings level from 1 to 6 different sizes
+      <frameset>	Used to holds one or more <frame> elements.
+      <form>	Defines a form section that having interactive input controls to submit form information to a server.
+      <footer>	Defines a footer section containing details about the author, copyright, contact us, sitemap, or links to related documents
+      <font>	Defines a font size, font face and font color for its text
+      <figure>	Represents self-contained content corresponding with a <figcaption> element
+      <figcaption>	Represents a caption text corresponding with a figure element
+      <fieldset>	Defines a grouping of related form elements
+      <eventsource>	Defines a source of event generates to remote server
+      <embed>	Define a embedding external application using a relative plug-in.
+      <dt>	Define a definition team
+      <dl>	Define a definition list
+      <div>	Define a division part
+      <dir>	Define a directory list
+      <dialog>	Define a chat conversation between one or more person
+      <dfn>	Define a definition team
+      <details>	Define a additional details hide or show as per user action
+      <del>	Specific text deleted in web document
+      <dd>	Defines a definition description in a definition list
+      <datalist>	Define a list of pre-defined options surrounding <input> tag
+      <datagrid>	Define a represent data in datagrid either list wise or tree wise
+      <command>	Define a command button, invoke as per user action
+      <colgroup>	Defines a group of one or more columns inside table
+      <col>	Specifies a each column within a <colgroup> element in table
+      <code>	Specifies computer code text
+      <cite>	Specifies a text citation
+      <center>	Specifies a text is display in center align
+      <caption>	Define a table caption
+      <canvas>	Specifies the display graphics on HTML web documment
+      <button>	Specifies a press/push button
+      <br />	Specific a single line break
+      <body>	Defines a main section(body) part in HTML document
+      <blockquote>	Specifies a long quotation
+      <big>	Defines a big text
+      <bdo>	Specific direction of text display
+      <bb>	Define browser command, that command invoke as per client action
+      <basefont>	Describes a default font color, size, face in a document
+      <base>	Define a base URL for all the links with in a web page
+HTML is the standard markup language 
+for creating web pages, 
+while XHTML is a stricter and
+ more standardized version of HTML.
+  Both HTML and XHTML include a wide 
+  range of features, such as support 
+  for multimedia, styling, and scripting
+HTML 2.0
+HTML 2.0 is released in 1995 and it was the
+ standard for website design until January 
+ 1997 and defined many core HTML features for the
+  first time. HTML 2.0 starts supports core HTML
+   elements and features such as tables and forms with 
+   limited set of form elements such as text boxes, and 
+   option buttons.
+   HTML 3.2
+   HTML 3.2 finalized by the W3C in early 1997. 
+   This version included support for creating tables and 
+   expanded options for form elements.
+   HTML 4.01
+   HTML 4.01 is the current official standard. 
+   This version is very stable, having been released 
+   in December 1999.
+   html-5
+   The HTML5 specification that we see today has been published
+   as a working draft.
